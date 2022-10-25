@@ -15,3 +15,5 @@ Based on the tables below we can see that:
 There is not much difference between the months of June and December in the temperature studies based on the urrent dataset that we have and the weather with regards to temperature seems to be suitable for "Surf and Shake".
 However, temperature is not the only factor when it comes to surfing. Therefore, I recommend running the following queries to retrieve precipitation information for themonths of June and December.
 
+`june_prcp = session.query(Measurement.date, Measurement.prcp).filter(extract('month', Measurement.date) == 6).all()`
+`dec_prcp = session.query(Measurement.date, Measurement.prcp).filter(extract('month', Measurement.date) == 12).all()`
