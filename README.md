@@ -10,6 +10,9 @@ Based on the tables below we can see that:
 - The average temperature for June is 74.9 F compared to December which is 71 F. Standard deviation is also pretty similar in both month. This shows the average temperature doesn't change much between June and Decemeber and changes only about 1 standard deviation. 
 - The minimum temperature is 8 F lower in December compared to June and ther maximum temperature is close to each other. 
 
+![](Images/june.png)
+![](Images/dec.png)
+
 
 ## Summary
 There is not much difference between the months of June and December in the temperature studies based on the urrent dataset that we have and the weather with regards to temperature seems to be suitable for "Surf and Shake".
